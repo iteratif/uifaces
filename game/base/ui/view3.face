@@ -1,0 +1,18 @@
+<view class="MyView">
+  <container>
+    <container x="100" y="100">
+      <image id="img1" source="C:/Users/iteratif/Documents/Visual Studio 2015/Projects/iteratif/game/base/ui/images/rect_red.dds" />
+    </container>
+    <image source="C:/Users/iteratif/Documents/Visual Studio 2015/Projects/iteratif/game/base/ui/images/rect_red.dds" />
+    <image id="img2" source="C:/Users/iteratif/Documents/Visual Studio 2015/Projects/iteratif/game/base/ui/images/qp_potion.dds" x="150" y ="150" />
+  </container>
+  <tweens>
+    <tween target="img2" repeat="5" yoyo="true" duration="10" ease="BounceEaseOut">
+      <property name="Y" to="400" />
+      <property name="Rotation" to="360" />
+    </tween>
+    <tween target="img1" repeat="5" duration="10">
+      <property name="Rotation" to="360" />
+    </tween>
+  </tweens>
+</view>

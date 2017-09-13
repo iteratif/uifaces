@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{950fec1b-cadb-44ae-b1cd-5a20ee2a8bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{dce691c1-f79d-4000-8235-e03a1ba68df5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Container.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DIndexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DVertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HorizontalLayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ILayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itFaceParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itFileManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Square.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VerticalLayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VisualElement.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FacesEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\itGame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AlphaBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClassFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\faces.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\faces_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AlphaBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Array.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Container.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FacesEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FacesException.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HorizontalLayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ILayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itFaceParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itFileManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itGame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Square.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TypeInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VerticalLayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisualElement.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\itMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\View.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClassFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="pixelShader.hlsl" />
+    <FxCompile Include="vertexShader.hlsl" />
+  </ItemGroup>
+</Project>

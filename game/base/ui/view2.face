@@ -1,0 +1,18 @@
+<view>
+	<container>
+    <layout>
+      <horizontal gap="50"/>
+    </layout>
+		<image source="images/rect_red.dds" />
+		<image source="images/rect_red.dds" visible="true" includeInLayout="true" />
+		<image source="images/rect_red.dds" />
+    <container>
+      <layout>
+        <horizontal />
+      </layout>
+      <image source="images/rect_red.dds" />
+      <image source="images/rect_red.dds" />
+      <image source="images/rect_red.dds" />
+    </container>
+	</container>
+</view>

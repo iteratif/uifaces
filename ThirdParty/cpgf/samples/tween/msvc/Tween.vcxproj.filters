@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{2317fde4-a65c-4583-8342-1e06510ed753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uiresource">
+      <UniqueIdentifier>{a54832c4-26dc-4464-8249-f0a182b61135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cpgf">
+      <UniqueIdentifier>{32b86a5e-fd6d-42ff-9986-e906fe041307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testcases">
+      <UniqueIdentifier>{5eda27c3-c48b-4f52-b8d4-e96366401412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\easeinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\mainframe.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\panelcanvas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\panelcommand.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\panelease.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\paneltweentest.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\sprite.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\toolpanel.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uiresource\mainui.cpp">
+      <Filter>Source Files\uiresource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gexception.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\glifecycle.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gmemorypool.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tween\gtimeline.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tween\gtween.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tween\gtweencommon.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tween\gtweenlist.cpp">
+      <Filter>Source Files\cpgf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcase.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcaseallcharts.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcaseanimation.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcasebasic.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcasechart.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcasefollow.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcaseparticles.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcasetimeline.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\testcases\testcaseutil.cpp">
+      <Filter>Source Files\testcases</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

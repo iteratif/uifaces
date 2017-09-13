@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)ThirdParty\glm;$(SolutionDir)ThirdParty\glext\include;$(SolutionDir)ThirdParty\cpgf\include;$(SolutionDir)ThirdParty\tinyxml2;$(SolutionDir)ThirdParty\DirectXTK\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)glm\glm\$(Configuration);$(SolutionDir)ThirdParty\glext\lib;$(SolutionDir)ThirdParty\libs\tinyxml2\$(PlatformTarget)\$(Configuration)-Lib;$(SolutionDir)ThirdParty\DirectXTK\Bin\Desktop_2015\$(PlatformTarget)\$(Configuration);$(SolutionDir)ThirdParty\cpgf\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)libs\$(PlatformTarget)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)libs\interm\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;glext.lib;glm_static.lib;DirectXTK.lib;tinyxml2.lib;cpgf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>_XM_NO_INTRINSICS_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

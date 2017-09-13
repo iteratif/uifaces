@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LibraryPath>$(SolutionDir)iteratif.faces\libs\$(PlatformTarget)\$(Configuration);$(SolutionDir)ThirdParty\libs\tinyxml2\$(PlatformTarget)\$(Configuration)-Lib;$(SolutionDir)ThirdParty\DirectXTK\Bin\Desktop_2015\$(PlatformTarget)\$(Configuration);$(SolutionDir)ThirdParty\cpgf\lib\$(PlatformTarget)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)iteratif.faces\include;$(SolutionDir)ThirdParty\tinyxml2;$(SolutionDir)ThirdParty\DirectXTK\Inc;$(SolutionDir)ThirdParty\cpgf\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;iteratif.faces.lib;tinyxml2.lib;DirectXTK.lib;cpgf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

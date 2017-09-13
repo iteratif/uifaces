@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\iteratif\Documents\Visual Studio 2015\Projects\iteratif\ThirdParty\glm\CMakeFiles\42bdebd800a9e74abcd1b23798e72330\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D7082887-53BF-3C05-801D-256E87466888}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
